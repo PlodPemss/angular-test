@@ -51,8 +51,8 @@ Dans leur forme la plus élémentaire, les pull requests permettent à un dével
 
 ![capture](https://github.com/PlodPemss/angular-test/blob/master/capture.PNG)
 
-Vercel va lorsque la pull request sera accepté directement déployer les modifications. C'est l'environnement de déploiement qui sera ciblé.
+Vercel va lorsque la pull request sera accepté directement déployer les modifications. C'est l'environnement de développement qui sera ciblé.
 
 ## Question 20
 newbranch was deployed by @vercel Vercel 5 minutes ago Active.
-Toujours l'environnement de déploiement.
+Toujours l'environnement de développement.
