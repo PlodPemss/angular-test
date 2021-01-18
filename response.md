@@ -56,3 +56,11 @@ Vercel va lorsque la pull request sera accepté directement déployer les modifi
 ## Question 20
 newbranch was deployed by @vercel Vercel 5 minutes ago Active.
 Toujours l'environnement de développement.
+
+## Question 21
+- L'environnement de production correspond à la branche main.
+- L'intérêt d'utiliser des pulls requests est d'automatiquement déployer la version de développement sur l'environnement de production (master -> main).
+- Développement -> Commit -> Pull Request -> Test -> Validation -> Déploiement sur l'environnement de production
+
+## Question 22
+Serverless est un paradigme de cloud computing dans lequel le fournisseur de serveur gère dynamiquement les ressources allouées au service client. Le prix dépend des ressources effectivement consommées et non des capacités d'un serveur acheté à l'avance. Les ressources informatiques sont utilisées comme des services.
