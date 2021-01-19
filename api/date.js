@@ -1,7 +1,8 @@
-exports.main = (context, sendResponse) => {
-  // your code called when the function is executed
-  const functionResponse = Date.now().prototype.toDateString();
-
-  // sendResponse is a callback function you call to send your response.
-  sendResponse({body: functionResponse, statusCode: 200});
-};
+module.exports = async function (context, req) {
+  const date = Date.now().prototype.toDateString();
+  
+  context.res = {
+      // status: 200, /* Defaults to 200 */
+      body: date
+  };
+}
