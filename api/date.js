@@ -1,8 +1,4 @@
-module.exports = async function (context, req) {
+module.exports = (req, res) => {
   const date = Date.now().prototype.toDateString();
-  
-  context.res = {
-      // status: 200, /* Defaults to 200 */
-      body: date
-  };
+  res.status(200).send(`Date : ${date}`);
 }
